@@ -1,0 +1,152 @@
+/****** General ***********/
+* {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+:root {
+    --main-color: #0065FC;
+    --main-bg-color: #F2F2F2;
+    --filter-bg-color: #DEEBFF;
+}
+
+.fa-solid {
+    color: var(--main-color);
+}
+
+
+
+/****** Header ***********/
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header img{
+    width: 200px;
+    padding: 30px;
+}
+header p{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #EAEAEA;
+    width: 100%;
+    text-align: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    
+}
+.intro{
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F6F6F6;
+    width: 100%;
+    height: 200px;
+}
+
+.intro button{
+    width: 218px;
+    height: 50px;
+    background:linear-gradient(#9356DC,#FF79DA) ;
+    border: none;
+    border-radius: 25px;
+    font-size: 16px;
+    color: white;
+}
+
+.fonctionnement{
+    padding: 50px 160px 50px 160px;
+    height: 228px;
+}
+.functions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.function{
+    display:flex;
+    flex-direction: row;
+    background-color: #F6F6F6;
+    height: 72.38px;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+.title{
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.restos{
+    padding: 50px 160px 50px 160px;
+
+}
+.cards{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.card{
+    width: 490px;
+    height: 251px;
+}
+.card img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+footer{
+    background-color: #353535;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 114px;
+    color: white;
+}
+
+
+/******Menu*******/
+main img{
+    height: 383px;
+    object-fit: cover;
+}
+
+.menu{
+    background-color: #F6F6F6;
+    padding: 50px 160px 50px 160px;
+    margin: 50px 160px 50px 160px;
+    border-radius:20px;
+}
+
+.menu .plats{
+    flex-direction: column;
+    background-color: white;
+    margin-top: 5px;
+}
+
+.downline{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+@media (max-width: 767.98px) {
+
+}
